@@ -20,3 +20,7 @@ while (not done):
         answer_num = int(answer_num) + int(answer)
         answer = 0
         check = 1
+
+
+
+print("hello" < "hi")
