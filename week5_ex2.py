@@ -1,16 +1,11 @@
-inOrder = True
+distance = 0
 
-number_1 = int(input("Enter a first number: "))
-number_2 = int(input("Enter second number: "))
-number_3 = int(input("Enter third number: "))
+x1 = int(input("x1: "))
+y1 = int(input("y1: "))
 
-def inOrder():
-    if number_3 >= number_2 >= number_1:
-        return True
-    else:
-        return False
-    
-if inOrder():
-    print("In order")
-else:
-    print("Not in order")
+x2 = int(input("x2: "))
+y2 = int(input("y2: "))
+
+distance = ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+
+print("The distance between the two points is", distance)
